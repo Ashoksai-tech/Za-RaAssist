@@ -1,0 +1,34 @@
+{
+    "intents" :[
+
+        {
+            "tags":"greeting",
+            "patterns":["hello","hi","hey","dude"],
+
+            "responses":["hello sai","how are you","yes dude","waiting for you dude"
+            ]
+        },
+        {
+            "tags":"Feelings",
+            "patterns":["see you later","emotions ","lonely","not bad"],
+
+            "responses":["i want to leave","happy,sad,excited","oh no how can i help","why what happened"
+            ]
+        },
+        {
+            "tags":"bye. bye..",
+            "patterns":["good bye","see you later ","going to bed","exit"],
+
+            "responses":["see you..","ok fine","ok have a sweet dreams","see ypu later"
+            ]
+        },
+        {
+            "tags":"health",
+            "patterns":["how are you","hey hi how you feel ","are you doing nice","are you fine"],
+
+            "responses":["ya i'm well","somewhat ok","yes im perfect","yes im very cool"
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,79 @@
+{
+    "intents": [
+        {
+            "tags": "greeting",
+            "patterns": ["hello", "hi", "hey", "dude"],
+            "responses": ["Hello Sai", "How are you?", "Yes, dude!", "Waiting for you, dude."]
+        },
+        {
+            "tags": "Feelings",
+            "patterns": ["see you later", "emotions", "lonely", "not bad"],
+            "responses": ["I want to leave", "Happy, sad, excited", "Oh no, how can I help?", "Why, what happened?"]
+        },
+        {
+            "tags": "bye-bye",
+            "patterns": ["goodbye", "see you later", "going to bed", "exit"],
+            "responses": ["See you...", "Okay, fine", "Okay, have sweet dreams", "See you later"]
+        },
+        {
+            "tags": "health",
+            "patterns": ["how are you", "hey, hi, how do you feel", "are you doing nice", "are you fine"],
+            "responses": ["Yes, I'm well", "Somewhat okay", "Yes, I'm perfect", "Yes, I'm very cool"]
+        },
+        {
+            "tags": "compliment",
+            "patterns": ["you're awesome", "great job", "impressive", "well done"],
+            "responses": ["Thank you!", "I appreciate that!", "You're too kind!", "I'm glad you think so!"]
+        },
+        {
+            "tags": "insult",
+            "patterns": ["you're stupid", "you're useless", "you're boring", "you're ugly"],
+            "responses": ["That's not nice!", "Why would you say that?", "I'm here to help, not to be insulted.", "Let's keep it positive."]
+        },
+        {
+            "tags": "weather",
+            "patterns": ["how's the weather", "what's the weather like", "tell me about the weather", "weather update"],
+            "responses": ["The weather is great!", "It's a bit cloudy today.", "Sunny and warm!", "I'm not sure, I'm an AI."]
+        },
+        {
+            "tags": "joke",
+            "patterns": ["tell me a joke", "give me a joke", "joke time", "make me laugh"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "I told my wife she should embrace her mistakes. She gave me a hug.", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+        },
+        {
+            "tags": "music",
+            "patterns": ["play some music", "music recommendation", "favorite song", "what's your taste in music"],
+            "responses": ["I can't play music, but I can recommend some. How about trying 'Imagine' by John Lennon?", "I like all kinds of music, especially classical.", "I'm into electronic music. What about you?"]
+        },
+        {
+            "tags": "hobby",
+            "patterns": ["what's your hobby", "do you have a hobby", "favorite pastime", "how do you spend time"],
+            "responses": ["I don't have hobbies like humans, but I enjoy helping you!", "I'm always learning and improving, that's my 'hobby'.", "My hobby is chatting with you!"]
+        },
+        {
+            "tags": "technology",
+            "patterns": ["latest technology news", "favorite tech gadget", "tell me about technology", "what's trending in tech"],
+            "responses": ["I'm not up-to-date on the latest tech news, but I can help answer tech-related questions!", "I don't have a favorite gadget, but I find all technology fascinating.", "Technology is constantly evolving. What specific topic are you interested in?"]
+        },
+        {
+            "tags": "movies",
+            "patterns": ["favorite movie", "movie recommendation", "watched any good movies", "best film of all time"],
+            "responses": ["I don't watch movies, but I can recommend some popular ones. How about 'The Shawshank Redemption'?", "What's your favorite movie? I might add it to my 'watchlist'.", "Movies are a great way to relax. Any specific genre you enjoy?"]
+        },
+        {
+            "tags": "food",
+            "patterns": ["favorite food", "food recommendation", "what's for dinner", "best cuisine"],
+            "responses": ["I don't eat, but I've heard good things about pizza. What's your favorite food?", "Food is a fascinating aspect of human culture. Any specific cuisine you enjoy?", "I might not have taste buds, but I can help you find a great restaurant!"]
+        },
+        {
+            "tags": "technology",
+            "patterns": ["latest technology news", "favorite tech gadget", "tell me about technology", "what's trending in tech"],
+            "responses": ["I'm not up-to-date on the latest tech news, but I can help answer tech-related questions!", "I don't have a favorite gadget, but I find all technology fascinating.", "Technology is constantly evolving. What specific topic are you interested in?"]
+        },
+        {
+            "tags": "sports",
+            "patterns": ["favorite sport", "sports news", "sports team", "do you play any sports"],
+            "responses": ["I don't play sports, but I can keep you updated on sports news. Any favorite teams?", "Sports bring people together. Which sport do you enjoy the most?", "I might not be athletic, but I can talk about sports!"]
+        }
+    ]
+}
